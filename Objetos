@@ -1,0 +1,78 @@
+
+// AULA OBJETOS
+
+/*
+//EXERCICIO 1
+const bastardosInglorios = {
+    diretor: 'Quentin Tarantino', 
+    titulo: 'Bastardos Inglorios',
+    anoLancamento: 2009, 
+    elenco : [" Christoph Waltz ", " Brad Pitt ", "Eli Roth"],    
+    assistido: true
+}
+console.log (bastardosInglorios.diretor)
+console.log (bastardosInglorios.titulo)
+console.log (bastardosInglorios.anoLancamento)
+console.log (bastardosInglorios['elenco'])
+console.log (bastardosInglorios['assistido'])
+
+
+// EXERCICIO 2
+const pessoa = {
+    nome: 'teo', 
+    idade: 15,
+    gerenoFavorito: 'trap'
+}
+console.log ("O nome da pessoa é", pessoa.nome, ", ela tem", pessoa.idade, "anos e gosta muito de ", pessoa.gerenoFavorito)
+
+EXERCICIO 3
+const personagens = []
+bastardosInglorios.personagens = ["Hans Landa", "Sargento Donny Donowitz", "Tenente Aldo Raine"]
+console.log (bastardosInglorios.personagens)
+console.log (bastardosInglorios.elenco[0], bastardosInglorios.personagens[0])
+console.log (bastardosInglorios.elenco[1], bastardosInglorios.personagens[1])
+console.log (bastardosInglorios.elenco[2], bastardosInglorios.personagens[2])
+bastardosInglorios.elenco[0] = 'xuxa'
+console.log (bastardosInglorios.diretor)
+console.log (bastardosInglorios.titulo)
+console.log (bastardosInglorios.anoLancamento)
+console.log (bastardosInglorios['elenco'])
+console.log (bastardosInglorios['assistido'])   
+
+// CODIGO SPREAD
+const usuario = {
+    nome: 'prof',
+    idade: 25,
+    email: 'prof@senacrs.com.br',
+    cidade: 'SP'
+}
+const usuario2 = {
+    ...usuario,
+    nome: 'joao',
+    idade: 28
+}
+console.log(usuario2)
+
+
+const lista = ['Mika', "Paula", "Vitor"]
+const copia = [...lista]
+console.log (copia)
+
+//EXERCICIO 4
+const pessoa = {
+    nome: 'teo', 
+    idade: 15,
+    gerenoFavorito: 'trap'
+}
+
+function lerPessoa(objeto) {
+    const pessoa2 = {
+        ...objeto,
+        comidas: ['pizza', 'lasanha', 'estrogonofe'],
+        nomeMelhor: {nome: 'Joao', idade: 15},
+    }
+    console.log ("O nome da pessoa é", pessoa2.nome, "e suas comidas favoritas sao", pessoa2.comidas[0], pessoa2.comidas[1], "e", pessoa2.comidas[2] ,". Seu melhor amigo se chama", pessoa2.nomeMelhor.nome,
+    "e tem", pessoa2.nomeMelhor.idade, "anos")
+}
+lerPessoa(pessoa);
+*/
